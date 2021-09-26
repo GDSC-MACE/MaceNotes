@@ -1,24 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Pages/Home/home";
+import Contribute from "./Pages/Contribute/contribute";
+import First from "./Pages/First/first";
+import EC from "./Pages/EC/ec";
+import CS from "./Pages/CS/cs";
+import MECH from "./Pages/MECH/mech";
+import EEE from "./Pages/EEE/eee";
+import CIVIL from "./Pages/CIVIL/civil";
+import Nomatch from "./Pages/Nomatch/Nomatch";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+         
+          <Route exact path={["/", "/index", "/home"]} component={Home} />
+          <Route exact path="/first" component={First} />
+          <Route exact path="/cs" component={CS} />
+          <Route exact path="/ec" component={EC} />
+          <Route exact path="/eee" component={EEE} />
+          <Route exact path="/civil" component={CIVIL}/>
+          <Route exact path="/mech" component={MECH} />
+          <Route exact path="/contribute" component={Contribute} />
+            <Route path="*" component={Nomatch} />
+        </Switch>
+      </Router>
   );
 }
 
