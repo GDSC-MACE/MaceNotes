@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# MaceNotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
 
-In the project directory, you can run:
+**MaceNotes is a website where students can contribute and get notes and learn more from people you trust.** 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Background
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Eventhough platforms providing lecture notes are there, notes are not updated according to the latest syllabus and does not contains the whole portion. MaceNotes is a one-stop solution for all these problems. It serves as a platform where students can get Lecture Notes arranged according to their brach and year so they can prepare for exam in one night.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Issues](https://img.shields.io/github/issues/GDSC-MACE/MaceNotes)
+![Pull Requests](https://img.shields.io/github/issues-pr/GDSC-MACE/MaceNotes)
+![Forks](https://img.shields.io/github/forks/GDSC-MACE/MaceNotes)
+[![License](https://img.shields.io/github/license/GDSC-MACE/MaceNotes)](https://github.com/GDSC-MACE/MaceNotes/blob/main/LICENSE)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Areas of Collaboration 👨
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Managers, Developers, and Designers would be collaborating on various domains like:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   **UI Prototyping** with figma tool [figma design](https://www.figma.com/file/zHfpGg2HLJxtMoOxJK1MzG/MaceNotes?node-id=0%3A1).
+    
+-    **Front-End Development with ReactJS**
+    
+This would be an enriching experience for all Student Developers, Project Managers, and Designers.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technology Stack 🛠️
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Coding Languages**: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
-## Learn More
+- **Tools & Technologies**: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- **Project Management Tools**: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    <img alt="GitHub" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/> <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Flow of the site :computer:
+Below is a basic idea as to how the website works. We will also be working on adding more features to this project!
 
-### Making a Progressive Web App
+![MaceNotes Website]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## General Guidelines :
+ - Before working on any issue, kindly go through the instructions given in the [contributing](CONTRIBUTING.md) and readme the file carefully.
+ - For each issue, a detailed explanation is mentioned in the issue ticket itself, for more details refer to [figma design](https://www.figma.com/file/zHfpGg2HLJxtMoOxJK1MzG/MaceNotes?node-id=0%3A1).
 
-### Advanced Configuration
+ - Code for different pages are arranged in seperate folders
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   Eg: [src->Pages->CS](src->Pages->CS)
+ - While making any component, make sure that the code for the all generalised/common components is kept in [src->components](src/components) folder.
+ - Kindly keep the source code in the [src->components](src/components/) folder while making specific components.
+ - Please make sure to adhere to the folder structure of the project.
 
-### Deployment
+We will also be working on adding more features to this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Setup Guidelines
+Clone the repository -
+```
+git clone https://github.com/GDSC-MACE/MaceNotes
+```
 
-### `yarn build` fails to minify
+### In the project directory, you can run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Run `cd MaceNotes` on your CLI to navigate to the root folder
+
+
+2. Install the dependencies by running
+    ```
+    npm install
+    ```
+
+3. Run the server
+    ```
+    npm start
+    ```
+
+
+
+
+
+
+
+## Learning Resources 
+
+
+- [Figma for Developers](https://www.youtube.com/playlist?list=PL7e8VJ_ZN6epq-oiYOufiuPI-fpDC2Mby)
+- [Git Documentation](https://git-scm.com/docs)
+- [GitHub Guides](https://guides.github.com/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+
+
+Contributions of any kind welcome!
+
