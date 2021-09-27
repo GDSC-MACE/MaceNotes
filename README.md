@@ -53,7 +53,7 @@ Below is a basic idea as to how the website works. We will also be working on ad
 
 
 ## General Guidelines :
- - Before working on any issue, kindly go through the instructions given in the [contributing](CONTRIBUTING.md) and readme the file carefully.
+ - Before working on any issue, kindly go through the instructions given in the [contributing guidelines](CONTRIBUTING.md) and readme the file carefully.
  - For each issue, a detailed explanation is mentioned in the issue ticket itself, for more details refer to [figma design](https://www.figma.com/file/zHfpGg2HLJxtMoOxJK1MzG/MaceNotes?node-id=0%3A1).
 
  - Code for different pages are arranged in seperate folders
