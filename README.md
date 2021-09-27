@@ -2,6 +2,7 @@
 
 
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+
 **MaceNotes is a website where students can contribute and get notes and learn more from people you trust.** 
 
 
