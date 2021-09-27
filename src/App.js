@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/home";
-import Contribute from "./Pages/Contribute/contribute";
+import Contribute1 from "./Pages/Contribute/Init/Init";
+import Contribute2 from "./Pages/Contribute/Final/Final";
 import First from "./Pages/First/first";
 import EC from "./Pages/EC/ec";
 import CS from "./Pages/CS/cs";
@@ -22,7 +23,8 @@ function App() {
           <Route exact path="/eee" component={EEE} />
           <Route exact path="/civil" component={CIVIL}/>
           <Route exact path="/mech" component={MECH} />
-          <Route exact path="/contribute" component={Contribute} />
+          <Route exact path="/contribute1" component={Contribute1} />
+            <Route exact path="/contribute2" component={Contribute2} />
             <Route path="*" component={Nomatch} />
         </Switch>
       </Router>
