@@ -8,7 +8,7 @@
 
 ## Project Background
 
-Eventhough platforms providing lecture notes are there, notes are not updated according to the latest syllabus and does not contains the whole portion. MaceNotes is a one-stop solution for all these problems. It serves as a platform where students can get Lecture Notes arranged according to their brach and year so they can prepare for exam in one night.
+Eventhough platforms providing lecture notes are there, notes are not updated according to the latest syllabus and does not contains the whole portion. MaceNotes is a one-stop solution for all these problems. It serves as a platform where students can get Lecture Notes arranged according to their branch and year so they can prepare for exam in one night.
 
 
 ![Issues](https://img.shields.io/github/issues/GDSC-MACE/MaceNotes)
