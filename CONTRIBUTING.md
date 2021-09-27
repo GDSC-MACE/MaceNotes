@@ -68,3 +68,6 @@ git push origin <your_branch_name>
 ```
 
 - Click on `compare and pull requests` to create a pull request
+
+```
+ The PR with correct and optimised solution, which satisfies the deadline criteria, will be merged soon
