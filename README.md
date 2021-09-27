@@ -49,7 +49,8 @@ This would be an enriching experience for all Student Developers, Project Manage
 ## Flow of the site :computer:
 Below is a basic idea as to how the website works. We will also be working on adding more features to this project!
 
-![MaceNotes Website]()
+![MaceNotes](https://user-images.githubusercontent.com/66560251/134847186-1bca457a-b2b7-416c-b744-646f603928ff.gif)
+
 
 ## General Guidelines :
  - Before working on any issue, kindly go through the instructions given in the [contributing](CONTRIBUTING.md) and readme the file carefully.
