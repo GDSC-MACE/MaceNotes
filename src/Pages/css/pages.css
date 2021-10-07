@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #13141C;
+}
+
+#container{
+
+    background-color: #13141C;
+    display: block;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color:#13141C
+}
+
+ul{
+    list-style: none;
+}
+
+#career{
+
+    position: absolute;
+    width: 420px;
+    height: 60px;
+    left: 208px;
+    top: 108px;
+
+    color: #547Cf5;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+
+
+.nav-top{
+
+    left:208px;
+    top:207px;
+    position: absolute;
+    width: 1132px;
+}
+
+.nav-top ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left:-45px;
+
+}
+
+.nav-top ul li{
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #547CF5;
+    box-sizing: border-box;
+    border-radius: 23px;
+    width: 161px;
+    height: 53px;
+
+    
+}
+
+.nav-top ul li a {
+    
+    position:absolute;
+    color: #547Cf5;
+    width: 161px;
+    height: 53px;
+    text-align: center;
+    margin-top: 11px;
+
+}
+
+.nav-top ul li a:hover{
+
+    background-color: #7A9AFC;
+    color: #13141C;
+    border-radius: 23px;  
+
+}
+
+
+h4{
+    color:#547Cf5;
+    position:relative;
+    left:34px;
+    width: 100px;
+    height: 30px;
+
+}
+
+ul li a{
+    color: #D4DFFF;
+}
+
+#grid{
+    position: absolute;
+    top:398px;
+    left:208px;
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows: 330px 330px;
+    row-gap: 69px;
+    column-gap: 90px;
+}
+
+
+
+.block{
+
+    width: 271.73px;
+    height: 323px;
+    background: #13141C;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.1), 4px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 21px;
+    border-left: 7px solid #547Cf5;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.block ul li{
+
+    padding: 10px;
+    margin-left: -16px;
+}

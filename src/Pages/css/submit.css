@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #13141C;
+}
+
+#container{
+
+    background-color: #13141C;
+    display: block;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+#upload-notes{
+
+    position: absolute;
+    width: 299px;
+    height: 60px;
+    left: 208px;
+    top: 108px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #547cf5;
+}
+
+label{
+    color:#d4dfff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    left:208px;
+}
+
+#name-label{
+
+    top: 228px;
+    width: 72px;
+    height: 30px;
+
+}
+
+#email-label{
+
+    top: 341px;
+}
+
+#number-label{
+
+    top: 484px;
+}
+
+#semester-label{
+
+    top: 627px;
+}
+
+#branch-label{
+
+    top: 770px;
+}
+
+
+input{
+
+    border: 2px solid #547CF5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D4DFFF;
+    position:absolute;
+    left:208px;
+    
+}
+
+input::placeholder{
+
+    color:#D4DFFF;
+    opacity: 0.5;
+    padding-left: 19px;
+
+}
+
+#name{
+
+    top: 269px;
+    width: 388px;
+    height: 48px;
+}
+
+#email{
+
+    top: 382px;
+    width: 444px;
+    height: 48px;
+}
+
+#number{
+
+    top: 525px;
+    width: 336px;
+    height: 48px;
+}
+
+select{
+
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 208px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    background: #7A9AFC;
+    color:#13141c;
+    opacity: 0.7;
+    padding-left: 19px;
+}
+
+#semester{
+
+    top: 668px;
+}
+
+#branch{
+
+    top: 811px;
+}
+
+#next{
+
+    position: absolute;
+    width: 141px;
+    height: 53px;
+    left: 208px;
+    top: 948px;
+    border-radius: 46px;
+    background-color:#7A9AFC;
+    border:none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+#subject-label{
+
+    width: 86px;
+    height: 30px;
+    left: 208px;
+    top: 250px;
+}
+
+#subject{
+
+    width: 336px;
+    height: 48px;
+    left: 208px;
+    top: 291px;
+}
+
+#module-label{
+
+    width: 85px;
+    height: 30px;
+    left: 208px;
+    top: 393px;
+}
+
+#module{
+
+    width: 336px;
+    height: 48px;
+    left: 208px;
+    top: 434px;
+}
+
+#file-label{
+
+    width: 121px;
+    height: 30px;
+    left: 208px;
+    top: 545px;
+}
+
+.drag-area{
+
+    position: absolute;
+    width: 539px;
+    height: 317px;
+    left: 208px;
+    top: 604px;
+    opacity: 0.7;
+    border: 2px dashed #7A9AFC;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#file-icon{
+
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 229px;
+    top: 95px;
+    color:#d4dfff;
+    border: 1px solid #13141C;
+    box-sizing: border-box;
+    opacity: 0.5;
+    --ionicon-stroke-width: 16px;
+    
+}
+
+#add{
+
+    position: absolute;
+    left: 255px;
+    top: 132px;
+    color:#d4dfff;
+    opacity: 0.5;
+}
+
+.browse{
+
+    position: absolute;
+    background-color:transparent;
+    width: 539px;
+    height: 317px;
+    left:-2px;
+    top:-2px;
+    border:none;
+}
+
+.drag-drop{
+
+    position: absolute;
+    width: 302px;
+    height: 18px;
+    left: 119px;
+    top: 195px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #D4DFFF;
+    opacity: 0.6;
+}
+
+#submit{
+
+    position: absolute;
+    width: 168px;
+    height: 53px;
+    left: 208px;
+    top: 978px;
+    border: none;
+    background: #7A9AFC;
+    border-radius: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

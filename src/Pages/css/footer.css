@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+ion-icon{
+    position: absolute;
+    color:#7A9AFC;
+    
+}
+
+#twitter{
+
+    width: 42px;
+    height: 42px;
+    left: 695px;
+    top: 1372px;
+}
+
+#instagram{
+
+    width: 41px;
+    height: 41px;
+    left: 532px;
+    top: 1373px;
+
+}
+
+#linkedin {
+
+    width: 40px;
+    height: 39px;
+    left: 614px;
+    top: 1373px;
+
+}
+
+#github {
+
+    width: 41px;
+    height: 41px;
+    left: 778px;
+    top: 1373px;
+}
+
+#mail {
+
+    width: 49px;
+    height: 49px;
+    left: 860px;
+    top: 1369px;
+
+}
+
+#footer-p{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #D4DFFF;
+
+    position: absolute;
+    width: 722px;
+    height: 23px;
+    left: 359px;
+    top: 1449px;
+}
