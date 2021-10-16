@@ -1,6 +1,7 @@
 import React from 'react'
 import './DisplayNotes.css'
 
+
 function DisplayNotes() {
     return (
         <div>

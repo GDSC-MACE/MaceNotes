@@ -10,7 +10,7 @@ import MECH from "./Pages/MECH/mech";
 import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
-import DisplayNotes from './components/DisplayNotes';
+import DisplayNotes from './Pages/DisplayNotes/DisplayNotes';
 function App() {
   return (
     <Router>
