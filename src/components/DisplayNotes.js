@@ -5,7 +5,7 @@ function DisplayNotes() {
     return (
         <div>
             <div className='subject-selected'>
-                Computer Science
+                COMPUTER SCIENCE
             </div>
             <div className="semester-row">
                 <div className="semester-cards">
