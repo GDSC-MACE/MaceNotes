@@ -11,13 +11,19 @@ import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
 import DisplayNotes from './Pages/DisplayNotes/DisplayNotes';
+import Navbar from "./components/Navbar/Navbar"
+
 function App() {
   return (
+    <div>
+    <Navbar />
+    <div style={{'marginLeft': "8%"}}>
     <Router>
         <Switch>
+
          <Route exact path = "/" component = {DisplayNotes}/>
           {/* <Route exact path={["/", "/index", "/home"]} component={Home} />
-          <Route exact path="/first" component={First} />
+        <Route exact path="/first" component={First} />
           <Route exact path="/cs" component={CS} />
           <Route exact path="/ec" component={EC} />
           <Route exact path="/eee" component={EEE} />
@@ -28,6 +34,10 @@ function App() {
             <Route path="*" component={Nomatch} /> */}
         </Switch>
       </Router>
+    </div>
+
+    </div>
+
   );
 }
 
