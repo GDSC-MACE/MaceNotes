@@ -1,3 +1,5 @@
+import "./Nomatch.css";
+
 function Nomatch(){
     return (
        <div className="nomatch_container">
