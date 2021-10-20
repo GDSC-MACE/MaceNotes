@@ -1,0 +1,32 @@
+.nomatch_container{
+  background-color: #547CF5;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomatch_container h1 {
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+.nomatch_container a {
+  text-decoration: none;
+  background: #13141C;;
+  color: #ffffff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.nomatch_container a:hover {
+  background: #e55039;
+}
