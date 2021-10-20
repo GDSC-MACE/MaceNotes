@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/home";
@@ -11,7 +10,9 @@ import MECH from "./Pages/MECH/mech";
 import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
+import DisplayNotes from './Pages/DisplayNotes/DisplayNotes';
 import Navbar from "./components/Navbar/Navbar"
+
 function App() {
   return (
     <div>
@@ -19,8 +20,10 @@ function App() {
     <div style={{'marginLeft': "8%"}}>
     <Router>
         <Switch>
-          <Route exact path={["/", "/index", "/home"]} component={Home} />
-          <Route exact path="/first" component={First} />
+
+         <Route exact path = "/" component = {DisplayNotes}/>
+          {/* <Route exact path={["/", "/index", "/home"]} component={Home} />
+        <Route exact path="/first" component={First} />
           <Route exact path="/cs" component={CS} />
           <Route exact path="/ec" component={EC} />
           <Route exact path="/eee" component={EEE} />
@@ -28,7 +31,7 @@ function App() {
           <Route exact path="/mech" component={MECH} />
           <Route exact path="/contribute1" component={Contribute1} />
             <Route exact path="/contribute2" component={Contribute2} />
-            <Route path="*" component={Nomatch} />
+            <Route path="*" component={Nomatch} /> */}
         </Switch>
       </Router>
     </div>
