@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './Pages/Contribute/Init/Init.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/home";
 import Contribute1 from "./Pages/Contribute/Init/Init";
@@ -11,11 +12,11 @@ import MECH from "./Pages/MECH/mech";
 import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
+import 'semantic-ui-css/semantic.min.css'
 function App() {
   return (
     <Router>
         <Switch>
-         
           <Route exact path={["/", "/index", "/home"]} component={Home} />
           <Route exact path="/first" component={First} />
           <Route exact path="/cs" component={CS} />
