@@ -69,7 +69,7 @@ const Init = () => {
                         <div style={{fontFamily:"Sans-serif", color:"white", marginBottom:"0.6rem", marginTop:"4rem" }}>Module *</div>
                         <Select 
                             required 
-                            placeholder='Choose your Module'
+                            placeholder='Choose the Module'
                             // options={countryOptions} 
                         />
                         <div style={{fontFamily:"Sans-serif", color:"white", marginBottom:"0.6rem", marginTop:"4rem"}}>File Upload *</div>
