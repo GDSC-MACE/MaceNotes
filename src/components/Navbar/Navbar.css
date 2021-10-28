@@ -1,0 +1,58 @@
+.nav-bar {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: -27%;
+    background-color: #547CF5;
+    -webkit-transition: 300ms ease-out;
+    -moz-transition: 300ms ease-out;
+    -o-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+    border: none;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100% ;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+}
+
+.nav-bar .navigations {
+    display: none;
+}
+
+.nav-bar .drawer {
+    position: relative;
+    font-size: 50px;
+    color: #13141C;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-bar:hover {
+    left: 0; 
+    grid-template-columns: 80% 20%;
+}
+
+.nav-bar:hover .navigations {
+    display: grid;
+    animation-iteration-count: 1000;
+    animation-duration: 4s;
+    grid-template-rows: 70% 30%;
+    padding: 68px 0 0 68px;
+}
+
+
+.nav-bar:hover .navigations .nav-link {
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 6px 0;
+}
+.nav-bar:hover .navigations .nav-link > a {
+    text-decoration: none;
+    color: #13141C;
+}

@@ -12,9 +12,13 @@ import MECH from "./Pages/MECH/mech";
 import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
-import 'semantic-ui-css/semantic.min.css'
+import Navbar from "./components/Navbar/Navbar"
+
 function App() {
   return (
+    <div>
+    <Navbar />
+    <div style={{'marginLeft': "8%"}}>
     <Router>
         <Switch>
           <Route exact path={["/", "/index", "/home"]} component={Home} />
@@ -29,6 +33,10 @@ function App() {
             <Route path="*" component={Nomatch} />
         </Switch>
       </Router>
+    </div>
+
+    </div>
+
   );
 }
 
