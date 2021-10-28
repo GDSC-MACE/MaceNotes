@@ -1,0 +1,26 @@
+.Init {
+    background-color: black;
+}
+.Input{
+    background-color:black !important;
+}
+.ui.input>input{
+    border: 1px solid #547CF5 !important;
+    background-color:black !important;
+}
+.ui.selection.dropdown{
+    background:#547CF5 !important;
+    border: 1px solid #547CF5 !important;
+    color: black !important;
+}
+.ui.button{
+    background:#547CF5 !important;
+    font-weight: bold !important;
+    color: black !important;
+}
+.ui.card, .ui.cards>.card {
+    box-shadow: none !important;
+}
+.ui.form .eight.fields .ui.input input, .ui.form .five.fields .ui.input input, .ui.form .four.fields .ui.input input, .ui.form .nine.fields .ui.input input, .ui.form .seven.fields .ui.input input, .ui.form .six.fields .ui.input input, .ui.form .ten.fields .ui.input input, .ui.form .three.fields .ui.input input, .ui.form .two.fields .ui.input input, .ui.form .wide.field .ui.input input {
+    color: white!important;
+}
