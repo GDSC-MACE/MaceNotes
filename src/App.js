@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
 import './Pages/Contribute/Init/Init.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/home";
@@ -13,6 +14,7 @@ import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
 import Navbar from "./components/Navbar/Navbar"
+
 
 function App() {
   return (

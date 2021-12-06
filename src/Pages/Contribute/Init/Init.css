@@ -1,8 +1,8 @@
 .Init {
-    background-color: black;
+    background-color: #282c34;
 }
 .Input{
-    background-color:black !important;
+    background-color:#282c34 !important;
 }
 .ui.input>input{
     border: 1px solid #547CF5 !important;
@@ -11,12 +11,12 @@
 .ui.selection.dropdown{
     background:#547CF5 !important;
     border: 1px solid #547CF5 !important;
-    color: black !important;
+    color: #282c34 !important;
 }
 .ui.button{
     background:#547CF5 !important;
     font-weight: bold !important;
-    color: black !important;
+    color: #282c34 !important;
 }
 .ui.card, .ui.cards>.card {
     box-shadow: none !important;
