@@ -6,7 +6,7 @@ const Init = () => {
     const[next, setNext]= useState(false)
     return (
         <div 
-            style={{backgroundColor:"black"}}
+            style={{backgroundColor:"#13141C", zIndex:"1", position:"relative" }}
         >
         <Grid >
             <Grid.Row>
@@ -15,7 +15,7 @@ const Init = () => {
                 </Grid.Column>
             </Grid.Row>
             {!next &&
-            <Grid.Row>
+            <Grid.Row style={{paddingBottom:0}}>
                 <Grid.Column style={{marginLeft:"6rem"}}>   
                     <Form>
                         <div style={{fontFamily:"Sans-serif", color:"white", marginBottom:"0.6rem"}}>Name *</div>
@@ -57,10 +57,10 @@ const Init = () => {
                 </Grid.Column>
             </Grid.Row>}
             {next &&
-            <Grid.Row>
+            <Grid.Row >
                 <Grid.Column style={{marginLeft:"6rem"}}>   
                     <Form>
-                        <div style={{fontFamily:"Sans-serif", color:"white", marginBottom:"0.6rem", marginTop:"4rem"}}>Subject *</div>
+                        <div style={{fontFamily:"Sans-serif", color:"white", marginBottom:"0.6rem"}}>Subject *</div>
                         <Select 
                             required 
                             placeholder='Choose the subject'

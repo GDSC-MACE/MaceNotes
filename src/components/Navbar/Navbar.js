@@ -1,7 +1,7 @@
 import './Navbar.css';
 
 function Navbar() {
-    return <div className="nav-bar">
+    return <div className="nav-bar" fluid>
         <div className="navigations">
             <div className="subject-links">
                 <div className="nav-link">

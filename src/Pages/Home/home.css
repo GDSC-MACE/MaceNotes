@@ -5,6 +5,9 @@ body{
     height: 100%;
     margin: 0;
     background-color: #13141C;
+    position: relative;
+    z-index: 1;
+
 }
 
 p{

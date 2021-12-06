@@ -1,9 +1,11 @@
 import React from 'react';
 import './home.css';
+import Navbar from "../../components/Navbar/Navbar"
 
 function Home(){
     return (
-        <div id="container">    
+        <>
+        <div id="container" style={{marginLeft:"2rem"}}>    
         <h1 id="heythere">HEY THERE,</h1>
             
             
@@ -39,6 +41,7 @@ function Home(){
             
         
     </div>
+    </>
     
     )
 }
