@@ -1,0 +1,14 @@
+.Footer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #D4DFFF;
+}

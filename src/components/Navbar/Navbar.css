@@ -1,58 +1,52 @@
-.nav-bar {
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    left: -27%;
-    background-color: #547CF5;
-    -webkit-transition: 300ms ease-out;
-    -moz-transition: 300ms ease-out;
-    -o-transition: 300ms ease-out;
-    transition: 300ms ease-out;
-    border: none;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 100% ;
-    font-family: 'Poppins', sans-serif;
-    padding-right: 20px;
+.Navbar {
+  position: fixed;
+  left: -20%;
+  width: calc(5vh + 2vw + 20%);
+  height: 85%;
+  background-color: #547cf5;
+  transition: 300ms ease-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  z-index: 1;
+}
+.Navbar:hover {
+  left: 0px;
 }
 
-.nav-bar .navigations {
-    display: none;
+.navigations,
+.drawer {
+  height: 100%;
 }
 
-.nav-bar .drawer {
-    position: relative;
-    font-size: 50px;
-    color: #13141C;
-    display: flex;
-    height: 100%;
+.drawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(5vh + 2vw);
+  align-self: flex-end;
+  font-size: 50px;
+  padding-bottom: 40%;
+}
+.navigations {
+  width: calc(-5vh - 2vw + 100%);
+  font-size: calc(2.5vh);
+  font-weight: 600;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 68px 0px 272px 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-link > a {
+  text-decoration: none;
+  color: #13141c;
+}
+.nav-link{
     width: 100%;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.nav-bar:hover {
-    left: 0; 
-    grid-template-columns: 80% 20%;
-}
-
-.nav-bar:hover .navigations {
-    display: grid;
-    animation-iteration-count: 1000;
-    animation-duration: 4s;
-    grid-template-rows: 70% 30%;
-    padding: 68px 0 0 68px;
-}
-
-
-.nav-bar:hover .navigations .nav-link {
-    font-size: 25px;
-    line-height: 38px;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 6px 0;
-}
-.nav-bar:hover .navigations .nav-link > a {
-    text-decoration: none;
-    color: #13141C;
+    display: block;
+    text-align: left;
 }
