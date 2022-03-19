@@ -12,6 +12,7 @@ import MECH from "./Pages/MECH/mech";
 import EEE from "./Pages/EEE/eee";
 import CIVIL from "./Pages/CIVIL/civil";
 import Nomatch from "./Pages/Nomatch/Nomatch";
+
 import Navbar from "./components/Navbar/Navbar"
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
           <Route exact path="/civil" component={CIVIL}/>
           <Route exact path="/mech" component={MECH} />
           <Route exact path="/contribute1" component={Contribute1} />
+
             <Route exact path="/contribute2" component={Contribute2} />
-            <Route path="*" component={Nomatch} />
+
         </Switch>
       </Router>
     </div>
