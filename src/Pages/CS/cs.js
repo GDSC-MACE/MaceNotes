@@ -1,30 +1,24 @@
-import {history, useEffect} from 'react';
-import { withRouter } from 'react-router';
-import { useLocation, useHistory } from "react-router-dom";
-import queryString from "query-string";
+import React, {useState} from 'react';
+import {useLocation, useNavigate} from "react-router-dom";
 import './cs.css'
-import axios from "axios";
-import React,{useState} from 'react';
 import Fetchnote from "../../components/fetchnote/fetchnote";
-import {Form, Header, Grid, Select, Button, Card, Icon} from "semantic-ui-react"
 
 
 function Cs(props) {
-    const history =useHistory();
+    const history = useNavigate();
     const search = useLocation().search;
-    const [sem,setsem]=useState(3);
+    const [sem, setsem] = useState(3);
 
 
-        return (
-            <div>
-            <Fetchnote
-                sub="COMPUTER NETWORKS"
-                mod="2"
-                />
+    return (<div>
+        <Fetchnote sub="COMPUTER NETWORKS"
+                      mod="2" />
+
+            <h2> viofniwoefnwriofn</h2>
 
 
-            </div>
-        );
+    </div>
+);
 
 
 }
