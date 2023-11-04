@@ -1,9 +1,8 @@
 function Civil(){
     return (
-        <div>
-           Civil
-        </div>
-
-    )
+      <div>
+        
+      </div>
+    );
 }
 export default Civil;
